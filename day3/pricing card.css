@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: pink;
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    box-sizing: border-box;
+   
+}
+.container div{
+    position: relative;
+    top: 50px;
+    width: 25%;
+    height: 25*3px;
+    margin: auto;
+    transition: box-shadow 0.3s ease-in-out;.
+}
+.container div ul{
+    list-style: none;
+    text-align: center;
+}
+.box-1{
+    background-color: rgb(255, 255, 255);
+}
+.box-1 li{
+    padding: 25px;
+    border: 2px solid rgb(213, 212, 212);
+    border-top: none;
+}
+.plan{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.per-year{
+    font-size: 1.4rem;
+    background-color: rgb(180, 179, 179);
+}
+.link a{
+    background-color: green;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.container div:hover{
+    box-shadow: 2px 3px 10px rgb(105, 105, 105);
+}
